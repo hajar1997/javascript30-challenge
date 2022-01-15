@@ -1,0 +1,40 @@
+html{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./background.jpg') bottom center;
+  background-size: cover;
+  color: white;
+}
+body,html{
+  margin: 0;
+  padding: 0;
+}
+.keys{
+  min-height: 100vh;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.key{
+  text-align: center;
+  border: 5px solid black;
+  margin: 20px;
+  transition: all .07s ;
+  width: 10rem;
+  padding: 1rem .5rem;
+}
+.keys kbd{
+  display: block;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.playing{
+  transform: scale(1.1);
+  border-color: darkgoldenrod;
+  box-shadow: 0 0 1rem darkgoldenrod;
+}
+
+.sound{
+  font-size: 14px;
+  color: darkgoldenrod;
+}
